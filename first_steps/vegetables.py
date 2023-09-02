@@ -1,0 +1,7 @@
+vegetables_per_kg = float(input())
+fruits_per_kg = float(input())
+total_vegetables = int(input())
+total_fruits = int(input())
+result = (total_vegetables * vegetables_per_kg) + (fruits_per_kg * total_fruits)
+total = (result / 1.94)
+print('%.2f' % total)
